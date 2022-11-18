@@ -1,0 +1,112 @@
+.f-btn {
+    font-size: 28upx;
+    padding-left: 40upx;
+    padding-right: 40upx;
+    height: 80upx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    color: #000;
+
+    // 圆角
+    &.round {
+        border-radius: 80upx;
+    }
+
+	// 大小
+	&-size-sm {
+	    height: 52upx;
+		padding-left: 30upx;
+		padding-right: 30upx;
+	    &.round {
+	        border-radius: 52upx;
+	    }
+	}
+	&-size-md {
+	    height: 80upx;
+	    &.round {
+	        border-radius: 80upx;
+	    }
+	}
+	&-size-lg {
+	    height: 106upx;
+	    &.round {
+	        border-radius: 106upx;
+	    }
+	}
+
+    // 颜色
+    &-color-primary {
+        color: #fff;
+        background-color: $f-primary;
+    }
+    &-color-warning {
+        color: #fff;
+        background-color: $f-warning;
+    }
+    &-color-success {
+        color: #fff;
+        background-color: $f-success;
+    }
+    &-color-error {
+        color: #fff;
+        background-color: $f-error;
+    }
+    &-color-info {
+        color: #fff;
+        background-color: $f-info;
+    }
+    &-color-dark {
+        color: #fff;
+        background-color: $f-dark;
+    }
+    &-color-white {
+        color: #000;
+        background-color: #fff;
+    }
+
+    // 边框颜色
+    &-outline-primary {
+        color: $f-primary;
+        border: 2upx $f-primary solid;
+		background-color: #fff !important;
+    }
+    &-outline-warning {
+        color: $f-warning;
+        border: 2upx $f-warning solid;
+		background-color: #fff !important;
+    }
+    &-outline-success {
+        color: $f-success;
+        border: 2upx $f-success solid;
+		background-color: #fff !important;
+    }
+    &-outline-error {
+        color: $f-error;
+        border: 2upx $f-error solid;
+		background-color: #fff !important;
+    }
+    &-outline-info {
+        color: $f-info;
+        border: 2upx $f-info solid;
+		background-color: #fff !important;
+    }
+    &-outline-dark {
+        color: $f-dark;
+        border: 2upx $f-dark solid;
+		background-color: #fff !important;
+    }
+    &-outline-white {
+        color: #000;
+        border: 2upx #fff solid;
+		background-color: #fff !important;
+    }
+
+
+    // 渐变
+    &-bg-blue2purple {
+        color: #fff;
+        background-image: linear-gradient(to bottom right, #0033ff, #cc33ff);
+    }
+}

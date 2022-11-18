@@ -1,0 +1,37 @@
+.f-tab {
+	.line {
+        width: 50%;
+        height: 6upx;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .active {
+        .line {
+            visibility: visible;
+        }
+    }
+
+    // 颜色
+    .line-primary {
+        background-color: $f-primary;
+    }
+    .line-warning {
+        background-color: $f-warning;
+    }
+    .line-success {
+        background-color: $f-success;
+    }
+    .line-error {
+        background-color: $f-error;
+    }
+    .line-info {
+        background-color: $f-info;
+    }
+    .line-dark {
+        background-color: $f-dark;
+    }
+    .line-white {
+        background-color: #fff;
+    }
+}

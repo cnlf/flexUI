@@ -1,0 +1,90 @@
+// 引入公共基础类
+@import "./css/common.scss";
+@import "./css/color.scss";
+@import "./css/flex.scss";
+@import "./css/spaces.scss";
+@import "./css/font.scss";
+@import "./css/layout.scss";
+
+// 非nvue
+/* #ifndef APP-NVUE */
+@import "./css/vue.scss";
+/* #endif */
+
+// 小程序
+/* #ifdef MP */
+@import "./css/mp.scss";
+/* #endif */
+
+// H5
+/* #ifdef H5 */
+@import "./css/h5.scss";
+/* #endif */
+
+
+// .btn {
+//   font-size: 28upx;
+//   padding-left: 30upx;
+//   padding-right: 30upx;
+//   height: 80upx;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: #ddd;
+//   color: #000;
+
+//   // 圆角
+//   &.round {
+//     border-radius: 80upx;
+//   }
+
+//   // 特殊
+//   &-search {
+//     color: #fff;
+//     background-image: linear-gradient(to bottom right, #0033ff, #cc33ff);
+//   }
+
+//   // 颜色
+//   &-primary {
+//     color: #fff;
+//     background-color: $f-primary;
+//   }
+//   &-warning {
+//     color: #fff;
+//     background-color: $f-warning;
+//   }
+//   &-success {
+//     color: #fff;
+//     background-color: $f-success;
+//   }
+//   &-error {
+//     color: #fff;
+//     background-color: $f-error;
+//   }
+//   &-info {
+//     color: #fff;
+//     background-color: $f-info;
+//   }
+
+//   // 边框颜色
+//   &-primary-outline {
+//     color: $f-primary;
+//     border: 2upx $f-primary solid;
+//   }
+//   &-warning-outline {
+//     color: $f-warning;
+//     border: 2upx $f-warning solid;
+//   }
+//   &-success-outline {
+//     color: $f-success;
+//     border: 2upx $f-success solid;
+//   }
+//   &-error-outline {
+//     color: $f-error;
+//     border: 2upx $f-error solid;
+//   }
+//   &-info-outline {
+//     color: $f-info;
+//     border: 2upx $f-info solid;
+//   }
+// }

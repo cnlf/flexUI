@@ -1,0 +1,24 @@
+page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+view, scroll-view, swiper-item {
+  display: flex !important;
+  flex-direction: column;
+}
+
+view {
+  box-sizing: border-box;
+}
+
+.page {
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto;
+  min-height: 100%;
+  /* #ifdef MP-ALIPAY || MP-BAIDU */
+  height: 100vh;
+  /* #endif */
+}

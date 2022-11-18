@@ -1,0 +1,57 @@
+.d-none {
+  display: none !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.d-inline-block {
+  display: inline-block !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-table {
+  display: table !important;
+}
+
+.d-table-row {
+  display: table-row !important;
+}
+
+.d-table-cell {
+  display: table-cell !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+// 历遍生成4个方向的底部安全区
+@each $d in top, right, bottom, left {
+  .u-safe-area-inset-#{$d} {
+    padding-#{$d}: 0;
+    padding-#{$d}: constant(safe-area-inset-#{$d});
+    padding-#{$d}: env(safe-area-inset-#{$d});
+  }
+}
+
+// 隐藏scroll-view的滚动条
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+}

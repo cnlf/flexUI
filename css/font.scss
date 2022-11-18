@@ -1,0 +1,23 @@
+$i: 10;
+@while $i <= 100 {
+  .font-#{$i} {
+    font-size: $i * 2upx !important;
+  }
+  $i: $i + 2;
+}
+
+@for $i from 0 through 9 {
+  @if $i == 0 {
+    .font-normal {
+      font-weight: normal;
+    }
+  } @else {
+    .font-weight-#{$i} {
+      font-weight: $i * 100;
+    }
+  }
+}
+
+.font-bold {
+  font-weight: bold;
+}

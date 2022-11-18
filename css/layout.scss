@@ -1,0 +1,31 @@
+@for $i from 0 through 10 {
+  .border-radius-#{$i} {
+    border-radius: $i * 10 + upx;
+  }
+}
+
+.text-align {
+	text-align: center;
+}
+
+.btn-transparent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background-color: transparent;
+
+    &::after {
+        border: 0;
+    }
+}
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
