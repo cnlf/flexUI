@@ -1,5 +1,5 @@
 {
-  "name": "@cnlf/FlexUI",
+  "name": "@cnlf/flex-ui",
   "version": "1.0.0",
   "description": "UI framework based on uniapp",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cnlf/FlexUI.git"
+    "url": "git+https://github.com/cnlf/flexUI.git"
   },
   "keywords": [
     "uniapp"
@@ -16,10 +16,10 @@
   "author": "wolf",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cnlf/FlexUI/issues"
+    "url": "https://github.com/cnlf/flexUI/issues"
   },
-  "homepage": "https://github.com/cnlf/FlexUI/#readme",
+  "homepage": "https://github.com/cnlf/flexUI/#readme",
   "dependencies": {
-    "crypto-js": "^4.1.1"
+
   }
 }
